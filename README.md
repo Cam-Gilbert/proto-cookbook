@@ -6,8 +6,6 @@
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-_See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
-
 This Project Pythia Cookbook covers using ERA5 reanalysis data to explore potential flood events in Alabama and compare them to data collected by my teammates who have paleo soil cores for the time period that we can investigate.
 
 ## Motivation
@@ -16,13 +14,7 @@ This cookbook will be useful to explore portions of the ERA5 reanalysis dataset,
 
 ## Authors
 
-[Cameron Gilbert](https://github.com/Cam-Gilbert), etc. _Acknowledge primary content authors here_
-
-### Contributors
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
+[Cameron Gilbert](https://github.com/Cam-Gilbert),_
 
 ## Structure
 
