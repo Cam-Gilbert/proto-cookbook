@@ -8,15 +8,15 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers using ERA5 reanalysis data to explore potential flood events in Alabama and compare them to data collected by my teammates who have paleo soil cores for the time period that we can investigate.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook will be useful to explore portions of the ERA5 reanalysis dataset, as well as explore connections between events shown in the reanalysis and flood events seen in soil core samples. For this homework I have just simply gone through the process of identifying a single event, and plotting that event using geoviews animations. 
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Cameron Gilbert](https://github.com/Cam-Gilbert), etc. _Acknowledge primary content authors here_
 
 ### Contributors
 
@@ -26,15 +26,17 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+Notebook 1 - Describes the process of identifying events
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+Notebook 2 - Describes the process of making an animation of 3 days of precipitation 
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Identifying precipitation events
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+Contained in Notebook 1. Describes the process of identifying events using the hourly precipitation variable.
 
-(Add content for this section, e.g., "Example workflows include ... ")
+### Animating precipitation events
+
+Contained in Notebook 2. Describes the process of creating a simple animation of the hourly precipitation variable through time. Creates a radar like plot that shows how much precip fell in an our as opposed to reflectivity. Takes a long time to generate so be patient with it. 
 
 ## Running the Notebooks
 
@@ -66,17 +68,16 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/proto-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/proto-cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `proto-cookbook` directory
    ```bash
-   cd cookbook-example
+   cd proto-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
