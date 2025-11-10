@@ -1,0 +1,3 @@
+# Conclusion
+
+After following the two notebooks contained in this folder, you should have had a brief introduction to exploring and identifying events within ERA5 reanalysis data and also how to plot and animate said events using the Geoviews package. This was done using 1-hr precipitation in the notebooks but could theoretically be done with any of the variables in the notebook. Note that the animations take a long time to generate.

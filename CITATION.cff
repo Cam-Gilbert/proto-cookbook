@@ -7,7 +7,7 @@ authors:
     orcid: https://orcid.org/0009-0008-0055-6080 # optional
     website: https://github.com/Cam-Gilbert # optional
     affiliation: University at Albany (State University of New York) # optional
-  - name: "Cookbook Template contributors" # use the 'name' field to acknowledge organizations
+  - name: "ATM533 Homework 3 Author" # use the 'name' field to acknowledge organizations
     website: "https://github.com/ProjectPythia/cookbook-template/graphs/contributors"
 title: "Homework 3 Cookbook"
 abstract: "Cookbook template edited following homework 3 instructions ."
